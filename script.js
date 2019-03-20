@@ -31,7 +31,7 @@ var Counter = React.createClass({
             React.createElement('button', {onClick: this.decrement}, '-'),
             React.createElement('span', {}, 'Licznik ' + this.state.counter)    
         );
-    }
+    },
     componentDidMount: function() {
     console.log('Element jest już pobrany - możemy np. zmienić jego miejsce w strukturze DOM lub pobrać dane z serwera');
     },
